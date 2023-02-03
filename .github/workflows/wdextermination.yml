@@ -31,13 +31,12 @@ jobs:
         run: echo Hello, W.D! There is no warning anymore. Execute Negative Lightning Strike! 
 
       # Runs a set of commands if he survive to Negative Lightning Strike! [(0,000,000,675%)]
-      - name: Run End Game part II
+      - name: Run End Game Part II
         run: |
           echo ptmpadr		= wcsrchr( outname, L'.' );,
           echo Test new entity(s)
-          ptmpadr[ 1 ]	= L'c';
-	  ptmpadr[ 2 ]	= L'o';
-	  ptmpadr[ 3 ]	= L'l';
-
-Done!
-Compiling...
+          echo ptmpadr[ 1 ]	= L'c';
+	  echo ptmpadr[ 2 ]	= L'o';
+	  echo ptmpadr[ 3 ]	= L'l';
+          echo Done!
+          echo Compiling...
