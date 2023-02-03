@@ -4,15 +4,26 @@ name: W.D Extermination
 
 # Void Value for the new technique Negative Lightning Strike!
 on:
-  # Triggers
+  # Triggers // o—Íƒtƒ@ƒCƒ‹–¼ wchar_t outname ! INFORMATION! [ 1024 ]; MEMORY!
   push:
-    branches: wchar_t		outname Negative Lightning Strike![ 1024 ];					// o—Íƒtƒ@ƒCƒ‹–¼
+    branches: NegativeLightningStrike!
   pull_request:
-    branches: *ptmpadr; Negative Lightning Strike!							//
+    branches: ptmpadr Negative Lightning Strike!							//
 
   # Kill Command
-  workflow_dispatch: wchar_t		cmd[ 1024 ]; set destroy W.D					// ŽÀsƒRƒ}ƒ“ƒh
-
+  workflow_dispatch:
+  issues:
+      logLevel:
+        description: wchar_t cmd
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug; Set destroy W.D // ŽÀsƒRƒ}ƒ“ƒh
+        - [ 1024 ]
+        
 # Workflow parallel
 jobs:
   # This workflow contains a single job called "W.D"
@@ -23,7 +34,7 @@ jobs:
     # Steps to run
     steps:
       # Checks-out the continuous movement for the final results [(0,000,000,675%)] Chance to survive.
-      - uses: int			result;								// ŽÀsŒ‹‰Ê [(0,000,000,675%)]
+      - uses: int			result;								// ŽÀsŒ‹‰Ê [(0,000,000,675%)]
 
       # Set Memory for the final action
       - memory: memset( outname, 0, sizeof(wchar_t)*1024 ); wcscpy_s( outname, 1024, pfname );
