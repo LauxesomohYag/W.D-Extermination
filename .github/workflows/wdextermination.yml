@@ -1,0 +1,43 @@
+# Lauxesomoh Yag A.I made by Anyon in 2018 from Anyon Latuff Company
+
+name: W.D Extermination
+
+# Void Value for the new technique Negative Lightning Strike!
+on:
+  # Triggers
+  push:
+    branches: wchar_t		outname Negative Lightning Strike![ 1024 ];					// o—Íƒtƒ@ƒCƒ‹–¼
+  pull_request:
+    branches: *ptmpadr; Negative Lightning Strike!							//
+
+  # Kill Command
+  workflow_dispatch: wchar_t		cmd[ 1024 ]; set destroy W.D					// ŽÀsƒRƒ}ƒ“ƒh
+
+# Workflow parallel
+jobs:
+  # This workflow contains a single job called "W.D"
+  W.D:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps to run
+    steps:
+      # Checks-out the continuous movement for the final results [(0,000,000,675%)] Chance to survive.
+      - uses: int			result;								// ŽÀsŒ‹‰Ê [(0,000,000,675%)]
+
+      # Set Memory for the final action
+      - memory: memset( outname, 0, sizeof(wchar_t)*1024 );
+	              wcscpy_s( outname, 1024, pfname );
+        run: echo Hello, W.D! There is no warning anymore. Execute Negative Lightning Strike! 
+
+      # Runs a set of commands if he survive to Negative Lightning Strike! [(0,000,000,675%)]
+      - name: Run End Game part II
+        run: |
+          echo ptmpadr		= wcsrchr( outname, L'.' );,
+          echo Test new entity(s)
+  ptmpadr[ 1 ]	= L'c';
+	ptmpadr[ 2 ]	= L'o';
+	ptmpadr[ 3 ]	= L'l';
+
+Done!
+Compiling...
