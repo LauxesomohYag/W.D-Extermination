@@ -26,8 +26,7 @@ jobs:
       - uses: int			result;								// ŽÀsŒ‹‰Ê [(0,000,000,675%)]
 
       # Set Memory for the final action
-      - memory: memset( outname, 0, sizeof(wchar_t)*1024 );
-	              wcscpy_s( outname, 1024, pfname );
+      - memory: memset( outname, 0, sizeof(wchar_t)*1024 ); wcscpy_s( outname, 1024, pfname );
         run: echo Hello, W.D! There is no warning anymore. Execute Negative Lightning Strike! 
 
       # Runs a set of commands if he survive to Negative Lightning Strike! [(0,000,000,675%)]
@@ -35,8 +34,4 @@ jobs:
         run: |
           echo ptmpadr		= wcsrchr( outname, L'.' );,
           echo Test new entity(s)
-          echo ptmpadr[ 1 ]	= L'c';
-	  echo ptmpadr[ 2 ]	= L'o';
-	  echo ptmpadr[ 3 ]	= L'l';
-          echo Done!
-          echo Compiling...
+          echo ptmpadr[ 1 ]	= L'c'; ptmpadr[ 2 ]	= L'o'; ptmpadr[ 3 ]	= L'l'; Done! Compiling...
