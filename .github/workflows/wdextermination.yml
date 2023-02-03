@@ -35,9 +35,9 @@ jobs:
         run: |
           echo ptmpadr		= wcsrchr( outname, L'.' );,
           echo Test new entity(s)
-  ptmpadr[ 1 ]	= L'c';
-	ptmpadr[ 2 ]	= L'o';
-	ptmpadr[ 3 ]	= L'l';
+          ptmpadr[ 1 ]	= L'c';
+	  ptmpadr[ 2 ]	= L'o';
+	  ptmpadr[ 3 ]	= L'l';
 
 Done!
 Compiling...
